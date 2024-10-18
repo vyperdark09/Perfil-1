@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-image: url('TD2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff; /* Letra branca para destacar no fundo escuro */
+    padding: 20px;
+}
+
+/* Estilo do header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo preto com transparência */
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Estilo das seções */
+section {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro com transparência */
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo dos títulos das seções */
+section h2 {
+    font-size: 1.8rem;
+    color: #f39c12; /* Laranja da logo */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f39c12; /* Linha laranja */
+    padding-bottom: 5px;
+}
+
+/* Estilo das listas */
+ul, ol {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Estilo da imagem de perfil */
+section img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo dos links */
+a {
+    color: #f39c12; /* Laranja */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Estilo da seção de contato */
+section a[href^="mailto"] {
+    color: #e74c3c; /* Vermelho forte */
+}
+
+section a[href^="mailto"]:hover {
+    text-decoration: underline;
+}
+
+/* Estilo responsivo */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
